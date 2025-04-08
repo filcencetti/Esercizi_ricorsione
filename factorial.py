@@ -5,6 +5,5 @@ def factorial(n):
         counter = n-1
         return n * factorial(counter)
 
-
 if __name__ == '__main__':
     print(factorial(4))

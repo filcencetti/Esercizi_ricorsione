@@ -5,9 +5,8 @@ def palyndrome(word):
         return ((word[0] == word[-1]) and
                 palyndrome(word[1:-1]))
 
-
 def palyndrome_banale(word):
-    return word ==word[::-1]
+    return word == word[::-1] # parola uguale al suo inverso
 
 if __name__ == '__main__':
     print(palyndrome('casa'))
